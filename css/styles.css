@@ -1,3 +1,13 @@
+body{
+    background-color: white;
+    color: black;
+}
+.dark-mode{
+    background-color: #121212;
+    color:white;
+    transition-duration: 1s;
+
+}
 .jumbotronWrapper{
     padding-top: 100px;
 }
@@ -14,11 +24,24 @@
 #myform{
     padding:30px;
 }
+#toggleButton{
+    border-radius: 12px;
+    background-color: white;
+    text-decoration: none;
+}
+#toggleButton:hover{
+    background-color: #FFD369;
 
-img:hover {
+}
+#pullButton{
+    border-radius: 12px;
+    background-color: white;
+}
+#pullButton:hover{
     animation: shake 0.5s;
     animation-iteration-count: infinite;
-  }
+    background-color: #FFD369;
+}
 /* for shake animation */
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }

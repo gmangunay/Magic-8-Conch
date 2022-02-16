@@ -30,27 +30,27 @@ function getRandomResponse(array){
     const response = array[random];
     return response;
 }
-//Function for return random index of responses[]
 function results(){
-
     // calls all function
     validation();
     displayQuesion();
     displayResult();
- 
 }
 function displayResult(){
     //call getRandomResponse function which generates random response
     const result = getRandomResponse(responses);
+    //displays random reponse
     document.getElementById("displayResults").innerHTML = result;
     //monitoring results
     console.log(result);
 }
 function displayQuesion(){
+    // replace ... with user question
     const question = document.getElementById("question").value;
     document.getElementById("displayQuestion").innerHTML = question;
 }
 function validation(){
+    // validate user input
     const question = document.getElementById("question").value;
     const validated = "true";
     if(question.length < 1){
@@ -61,5 +61,10 @@ function validation(){
     if(validated === "false"){
         return false;
     }
+}
+function darkMode(){
+    // toggle dark mode
+    const element = document.body;
+    element.classList.toggle("dark-mode")
 }
 

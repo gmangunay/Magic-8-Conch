@@ -32,10 +32,14 @@
 <body>
     <!-- Jumbotron -->
     <div class="container">
+     
         <div class="row jumbotronWrapper">
+        
             <div class="col d-flex align-items-center justify-content-center">
                 <div class="jumbotron">
                     <h2 class="display-4">The Magic Conch Shell</h2>
+                    <button onclick="darkMode()" id="toggleButton" >Dark mode</button>
+
                     <p class="lead">The <b>Magic Conch Shell</b> was featured in SpongeBob SquarePants. 
                                     It was a device that SpongeBob and Patrick used to survive in the dangerous Kelp Forest.
                                     When one does not respect the conch, bad things happen. What questions do you have for it? 
@@ -48,7 +52,7 @@
         <!-- Magic Conch Image -->
         <div class="row">
             <div class="col d-flex align-items-center justify-content-center">
-                <img src="./images/Spiral Shell Emoji.png"  id="conch" alt="The magic conch">
+                <img src="./images/Spiral Shell Emoji.png" id="conch" alt="The magic conch">
             </div>
         </div>
         <!-- Form Input -->
@@ -60,7 +64,7 @@
                     <!-- Input Text -->
                     <input type="text" id="question">
                     <!-- Input Submit -->
-                    <input type="submit" value="Pull">
+                    <input type="submit" value="Pull" id ="pullButton">
                 </form>
             </div>
             
@@ -80,7 +84,6 @@
                 <h2>"</h2>
             </div>
         </div>
-
     </div>
 
 
