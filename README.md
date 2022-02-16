@@ -14,7 +14,7 @@ This web application allows for a user to ask a question which generates a rando
 
 ## Contributors
 
-Genesis Mangunay,
-Solutions Engineer Apprentice
-Alphaworks
+Genesis Mangunay, \
+Solutions Engineer Apprentice\
+Alphaworks \
 gmangunay@alphaworks.tech
