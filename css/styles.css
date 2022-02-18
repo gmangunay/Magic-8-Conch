@@ -1,6 +1,8 @@
 body{
     background-color: white;
     color: black;
+    transition-duration: 1s;
+
 }
 .dark-mode{
     background-color: #121212;
